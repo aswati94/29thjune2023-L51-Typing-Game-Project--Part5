@@ -1,0 +1,101 @@
+.s_tbdr{
+    border: 1px dashed #000;
+}
+
+.s_mysection{
+    border: 10px solid #0dcaf0 !important;
+    height: 600px !important;
+
+}
+
+/* row1-col1 */
+.s_size{
+    font-size: 24px;
+    height: 100px;
+    margin-bottom: 5px;
+    line-height: 25px;
+}
+
+/* row1-col2 */
+.s_keyboard {
+    min-height: 150px;
+    overflow: hidden;
+    height: 295px;
+}
+.s_bg {
+    background-color: #555353;
+}
+.s_w_custom{
+    width: 90px !important;
+}
+.s_w_custom_space{
+    width:  350px !important;
+}
+.keyboard-key{
+    margin-right: 5px;
+    width: 55px;
+    height: 40px;
+    box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.600);
+    border-right-style: outset #444343;
+    border-collapse: normal;
+    border-style: outset;
+    -moz-border-style: outset;
+    -webkit-border-style: outset;
+    border-width: 5px;
+    border-radius: 4px;
+    background-color: #444343;
+    text-align: center;
+    border-color: rgb(98 89 89 / 81%);
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 15px;
+    transition: 5s linear linear;
+    }
+
+    .keyboard-key:active{
+        background-color: #007bff !important;
+        transform: translateY(3px);
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+      }
+
+    .keyboard-key:hover {
+        color: #ffffff;
+        border-color: rgba(0, 0, 0, 0.813);  
+    }
+    .keyboard-key:focus-visible {
+        color: #ffffff;
+        background-color: #444343;
+        border-width: 2px;
+        border: none;
+        border-style: inset;
+        box-shadow: none;
+    }
+    .keyboard-key.btn-check:checked + .btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check) + .btn:active {
+        color: #ffffff;
+        background-color: #444343;
+        border-width: 1px;
+        border-color: rgba(117, 107, 107, 0.81);
+        border-style: inset;
+    }
+
+    /* row1-col3 */
+    .s_hand_hght{
+        background-size: contain;
+        background-repeat: no-repeat;
+        z-index: 10px;
+    }
+    .s_circle{
+        width: 25px;
+        height: 25px;
+    }
+    .s_left_pinky{
+        left: 215px;
+        top: 90px;
+        display: none;
+    }
+
+    .a_active {
+        background-color: #c6c7c8;
+        transform: translate(2px,2px);
+        box-shadow: 1px 1px 0px 0px rgba(0,0,0,0.9);
+    }
